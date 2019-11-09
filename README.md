@@ -8,19 +8,40 @@ Al entrar en la fiesta se pueden encontrar enormes carpas cerveceras, en donde m
 
 
 ## Marcas y jarras
-Existen varias **marcas** de cerveza. Están las marcas de cerveza rubia (como la Corona), las marcas de cerveza negra (como la Guiness), y las marcas de cerveza roja (como la Hofbräu). De cada marca se sabe su contenido de lúpulo, o sea, cuántos gramos de lúpulo por litro llevan. También se conoce el país donde se fabrica.
+Existen varias **marcas** de cerveza. Están las marcas de cerveza rubia (como la Corona),
+las marcas de cerveza negra (como la Guiness), y las marcas de cerveza roja (como la Hofbräu).
+De cada marca se sabe su contenido de lúpulo, o sea, cuántos gramos de lúpulo por litro llevan.
+También se conoce el país donde se fabrica.
 
-La graduación de una cerveza es su porcentaje de alcohol en volumen. P.ej. una cerveza de 10 % de graduación, tendrá 0.1 litro de alcohol por litro de cerveza: 
-* Cada marca de cerveza rubia tiene una graduación distinta. 
-* Por otro lado, la graduación de una marca de cerveza negra se calcula como el mínimo entre la graduación reglamentaria y el doble de su contenido de lúpulo. La graduación reglamentaria es mundial, o sea que es única para todas las marcas de cerveza negra del mundo; puede cambiar con el tiempo. 
-* La cerveza roja se fabrica con procedimientos similares a la de la cerveza negra, pero que concentran más el alcohol. Por lo tanto, la graduación de una marca de cerveza roja se calcula multiplicando el valor que correspondería a una cerveza negra con la misma configuración, por 1.25.
+La graduación de una cerveza es su porcentaje de alcohol en volumen.
+*P.ej. una cerveza de 10 % de graduación, tendrá 0.1 litro de alcohol por litro de cerveza:
 
-En la fiesta, la cerveza se vende en **jarras**. De cada jarra de cerveza sabemos su capacidad en litros y de qué marca es.
+* Cada marca de cerveza rubia tiene una graduación distinta.
+
+* Por otro lado, la graduación de una marca de cerveza negra se calcula como el mínimo entre la graduación reglamentaria 
+*y el doble de su contenido de lúpulo.
+*La graduación reglamentaria es mundial, o sea que es única para todas las marcas de cerveza negra del mundo;
+*puede cambiar con el tiempo.
+
+* La cerveza roja se fabrica con procedimientos similares a la de la cerveza negra,
+pero que concentran más el alcohol.
+*Por lo tanto,la graduación de una marca de cerveza roja se calcula multiplicando el valor que 
+correspondería a una cerveza negra con la misma configuración, por 1.25.
+
+En la fiesta, la cerveza se vende en **jarras**.
+De cada jarra de cerveza sabemos su capacidad en litros y de qué marca es.
 
 ## Personas
-De cada persona se sabe su peso, las jarras de cerveza que compró hasta el momento, si le gusta escuchar música tradicional o no, y su nivel de aguante, que es un número. Una persona está ebria si la cantidad de alcohol que ingirió multiplicado por su peso supera su aguante. 
+De cada persona se sabe su peso,
+las jarras de cerveza que compró hasta el momento,
+si le gusta escuchar música tradicional o no,
+y su nivel de aguante, que es un número.
+Una persona está ebria si la cantidad de alcohol que ingirió multiplicado por su peso supera su aguante. 
 
-Además, de cada persona interesará saber qué marcas de cerveza le gustan. Se sabe que a los belgas les gusta solamente la cerveza con más de 4 gramos de lúpulo por litro, a los checos les gustan las cervezas de más de 8 % de graduación (ver abajo qué es la graduación de la cerveza), a los alemanes les gustan todas.
+Además, de cada persona interesará saber qué marcas de cerveza le gustan.
+Se sabe que a los belgas les gusta solamente la cerveza con más de 4 gramos de lúpulo por litro,
+a los checos les gustan las cervezas de más de 8 % de graduación (ver abajo qué es la graduación de la cerveza),
+a los alemanes les gustan todas.
 
 
 
@@ -53,7 +74,10 @@ Cada carpa vende cerveza de únicamente una marca (que depende de cada carpa).
 
 Se agregan estos requerimientos
 
-5. Saber si una persona **quiere entrar** a una carpa. Para esto hay que mirar si la marca de cerveza que venda la carpa le gusta a la persona y si cumple su preferencia sobre que haya o no haya música (ojo con esto: si a la persona le gusta la música tradicional tiene que haber música en la carpa, y si no le gusta, entonces no puede haber música).  
+5. Saber si una persona **quiere entrar** a una carpa. Para esto hay que mirar si la marca de cerveza que venda la carpa le 
+gusta a la persona y si cumple su preferencia sobre que haya o no haya música (ojo con esto: si a la persona le gusta la 
+música tradicional tiene que haber música en la carpa, y si no le gusta, entonces no puede haber música).
+  
 Los alemanes, además, requieren que haya una cantidad par de personas en la carpa (antes de entrar ellos).
 
 1. Saber si una carpa **deja ingresar** a una persona, o sea, si dejándola entrar no supera su límite de personas y la persona no está ebria.

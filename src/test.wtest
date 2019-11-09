@@ -1,0 +1,28 @@
+import cervezas.*
+import objects.*
+import carpa.*
+/*## Requerimientos - primera parte
+Se pide codificación completa y test para los siguientes requerimientos:
+
+1. Saber el **contenido de alcohol** de una jarra de cerveza.
+Ej: una jarra de cerveza de medio litro de la marca _Hofbräu_
+(suponiendo que tiene 8 % de graduación alcohólica) tiene 0.5 * 0.08 = 0.04 litros de alcohol.
+
+1. Saber el **total de alcohol** que ingirió una persona 
+(en base a las jarras de cerveza que compró).
+
+1. Saber si una persona **está ebria** o no.
+
+1. Saber si a una persona **le gusta**, o no, una determinada marca de cerveza.
+*/
+test "testX" {
+	var cerbeza1 = new CervezaRubia(graduacion=0.08,lupulo=0,pais="Argentina")
+	var persona1 = new Persona(peso=80,aguante=20,musica=true,estaEbria=true)
+	var jarra1 = new Jarra(capacidadDeLitros=0.5,marca= "_Hofbräu_")
+	assert.equals(0.04,jarra1.contenidoDeAlcohol(cerbeza1)
+	persona1.cervezasQueCompro(cerbeza1)
+	assert.equals(0.08,persona1.cantidadDealcohol())
+	assert.that(not persona1.ebrio())
+	var belguita1 = new Belga()
+	assert.that(not belguita1.marcaDeCervezaQueLegusta(cerbeza1))
+}
